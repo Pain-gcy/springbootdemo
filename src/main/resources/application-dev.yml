@@ -1,0 +1,8 @@
+server:
+  port: 8080
+ # servlet:
+  #  path: /springboot
+girl:
+  cupSize: B
+  age: 18
+

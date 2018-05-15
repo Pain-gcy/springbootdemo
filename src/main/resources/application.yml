@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.29.130.240:3306/test?useUnicode=true&amp;autoReconnect=true&amp;characterEncoding=UTF8
+    username: gitv_rd
+    password: 1234.gitv_rd
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+test: ssssss
+
